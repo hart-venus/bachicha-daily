@@ -32,3 +32,12 @@ Contributions are welcome.
 
 ## License
 MIT
+
+## Future features
+1. Image caching
+2. Image Rating System
+3. Custom prompts for server side (not just the daschund image)
+4. Custom prompts each day algorithmically generated
+5. Responsive design
+6. Image history
+7. Links to my social media
