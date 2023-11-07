@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Fetcher</title>
+    <style>
+        /* Make the image div cover the entire screen */
+        #imageDiv {
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Remove padding and margin from the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }        
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="imageDiv"></div>
+
+    <script>
+        $(document).ready(function() {
+            $.getJSON('/get-image', function(data) {
+                if(data.image_url) {
+                    // Set the background image of the div
+                    $('#imageDiv').css('background-image', 'url(' + data.image_url + ')');
+                } else {
+                    // If there's an error, consider a fallback scenario
+                    $('#imageDiv').text('Error fetching image.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
