@@ -42,3 +42,4 @@ MIT
 5. Responsive design
 6. Image history
 7. Links to my social media
+8. Connect with weather API to display weather
