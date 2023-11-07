@@ -34,7 +34,7 @@ Contributions are welcome.
 ## License
 MIT
 
-## Future features
+## Roadmap
 1. Image caching
 2. Image Rating System
 3. Custom prompts for server side (not just the daschund image)
@@ -43,3 +43,5 @@ MIT
 6. Image history
 7. Links to my social media
 8. Connect with weather API to display weather
+9. CI/CD pipeline
+10. Dockerize
