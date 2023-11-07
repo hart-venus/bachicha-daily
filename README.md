@@ -1,3 +1,4 @@
+![](https://github.com/hart-venus/bachicha-daily/blob/main/image.png?raw=true)
 # Daily Image Fetcher
 
 This is a Flask application that fetches an image from OpenAI's DALL-E API and displays it on a webpage.
