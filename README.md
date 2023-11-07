@@ -24,8 +24,8 @@ python app.py
 The application will start a server at http://localhost:5000/. Open this URL in a web browser to view the image.
 
 ## API Routes
-/ - Displays the image fetched from the DALL-E API.
-/get-image - Fetches a new image from the DALL-E API.
+- / - Displays the image fetched from the DALL-E API.
+- /get-image - Fetches a new image from the DALL-E API.
 
 ## Contributing
 Contributions are welcome. 
